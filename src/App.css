@@ -44,6 +44,7 @@ body {
     transform-origin: top left;
     width: 133.33%;
     height: 133.33vh;
+    overflow-x: hidden;
   }
 }
 
