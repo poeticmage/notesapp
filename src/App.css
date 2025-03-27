@@ -38,17 +38,6 @@ body {
   background-size: 100% 100%;
   padding: 0 16px;
 }
-@media (max-aspect-ratio: 3/4) { 
-  body {
-    background-size: auto 100%;
-  }
-}
-@media (max-width: 768px) {
-  body {
-    background-size: auto 100%;
-  }
-}
-
 
 
 header {
