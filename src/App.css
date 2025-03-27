@@ -33,7 +33,7 @@
 }
 body {
   background: url("./notesappwallpaper.png") no-repeat center center fixed;
-  background-size: 100% 100%;
+  background-size: 100% auto;
   min-width: 1024px;
   min-height: 100vh;
   padding: 0 16px;
