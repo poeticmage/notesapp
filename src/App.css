@@ -26,18 +26,30 @@
     transform: rotate(360deg);
   }
 }
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   background: url("./notesappwallpaper.png") no-repeat center center fixed;
-  background-size: 100% auto;
-  min-width: 1024px;
-  min-height: 100vh;
+  background-size: 100% 100%;
   padding: 0 16px;
 }
+@media (max-aspect-ratio: 3/4) { 
+  body {
+    background-size: auto 100%;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-size: auto 100%;
+  }
+}
+
+
 
 header {
   margin: auto -16px;
